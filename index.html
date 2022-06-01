@@ -18,30 +18,30 @@
 
 <body>
     <!--Шапка-->
-    <header class="header hdr">
-        <div class="container main-nav">
-            <nav class="navigation">
-                <a class="logo" href="./index.html">Web<span class="logo2">Studio</span></a>
-                <!--Навигация-->
-                <ul class="site-nav list">
-                    <li class="item">
-                        <a class="item-link studio" href="./index.html">Студия</a></li>
-                    <li class="item">
-                        <a class="link element nav-position" href="./portfolio.html">Портфолио</a></li>
-                    <li class="item">
-                        <a class="link element nav-position" href="">Контакты</a></li>
+    <header class="header">
+        <div class="container header-container">
+            <a class="logo" href="./index.html">Web<span class="logo-style">Studio</span></a>
+            <!--Навигация-->
+            <nav class="navigation">   
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__item-style" href="./index.html">Студия</a></li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="list-contact main-cntct">
-                <li class="link-contact cntct">
-                    <a class="element " href="mailto:info@devstudio.com">
-                    <svg class="mail-tell" width="16" height="12">
-                        <use class="contact"  href="./images/icons.svg#icon-envelope" rel="noopener noreferrer" ></use>
+            <ul class="header__contact">
+                <li class="header__list">
+                    <a class="header__link" href="mailto:info@devstudio.com">
+                    <svg class="header__icon" width="16" height="12">
+                        <use  href="./images/icons.svg#icon-envelope" rel="noopener noreferrer" ></use>
                     </svg>info@devstudio.com</a></li>
-                <li class="link-contact cntct">
-                    <a class="element" href="tel:+380961111111">
-                    <svg class="mail-tell" width="10" height="16">
-                        <use class="contact" href="./images/icons.svg#icon-smartphone" rel="noopener noreferrer"></use>
+                <li class="header__list">
+                    <a class="header__link" href="tel:+380961111111">
+                    <svg class="header__icon" width="10" height="16">
+                        <use href="./images/icons.svg#icon-smartphone" rel="noopener noreferrer"></use>
                     </svg>+38 096 111 11 11</a></li>
             </ul>
         </div>
@@ -58,7 +58,7 @@
         </div>
         <section class="asset-section">
             <div class="container">
-                <ul class="list asset">
+                <ul class="asset-list">
                     <li class="item-asset">
                         <a class="asset-link">
                             <svg class="asset-icon" width="70" heidht="70" >
@@ -67,8 +67,8 @@
                             </svg>
                         </a>
                         <h3 class="item-title">Внимание к деталям</h3>
-                        <b class="item-text">Идейные соображения, а также начало повседневной работы по формированию
-                            позиции.</b>
+                        <p class="item-text">Идейные соображения, а также начало повседневной работы по формированию
+                            позиции.</p>
                     </li>
                     <li class="item-asset">
                         <a class="asset-link">
@@ -166,58 +166,56 @@
         <section class="work">
             <div class="container">
                 <h2 class="title-work" >Чем мы занимаемся</h2>
-                <div class="list-work">
-                    <ul class="list asset">
-                        <li class="item item-work">
+                    <ul class="work-list">
+                        <li class="item-work">
                             <img class="" src="./images/img.jpg" alt="пример1" width="370" >
                             <p class="item-work-text">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
                         </li>
-                        <li class="item item-work">
+                        <li class="item-work">
                             <img class="" src="./images/img1.jpg" alt="пример2" width="370">
                             <p class="item-work-text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
                         </li>
-                        <li class="item item-work">
+                        <li class="item-work">
                             <img class="" src="./images/img2.jpg" alt="пример3" width="370">
                             <p class="item-work-text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
                         </li>
                     </ul>
-                </div>
             </div>
         </section>
         <section class="team-container">
             <div class="container">
                 <h2 class="title-team">Наша команда</h2>
 
-                <ul class="list flex-name">
-                    <li class="item flex-border">
+                <ul class="flex-name">
+                    <li class="flex-border">
                         <img src="./images/imgk1.jpg" alt="ИгорьДемьяненко" width="270">
                         <div class="command-name">
                             <h3 class="list-name">Игорь Демьяненко</h3>
                             <p class="list-professional">Product Designer</p>
-                            <ul class="socials link">
+                            <ul class="socials">
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Instagram">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Instagram">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Twitter">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Twitter">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Facebook">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Facebook">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка LinkedIn">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка LinkedIn">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-linkedin"></use>
                                         </svg>
@@ -226,35 +224,35 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="item flex-border">
+                    <li class="flex-border">
                         <img src="./images/imgk2.jpg" alt="ОльгаРепина" width="270">
                         <div class="command-name">
                             <h3 class="list-name">Ольга Репина</h3>
                             <p class="list-professional">Frontend Developer</p>
-                            <ul class="socials link">
+                            <ul class="socials">
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Instagram">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Instagram">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Twitter">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Twitter">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Facebook">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Facebook">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка LinkedIn">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка LinkedIn">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-linkedin"></use>
                                         </svg>
@@ -263,35 +261,35 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="item flex-border">
+                    <li class="flex-border">
                         <img src="./images/imgk3.jpg" alt="НиколайТарасов" width="270">
                         <div class="command-name">
                             <h3 class="list-name">Николай Тарасов</h3>
                             <p class="list-professional">Marketing</p>
-                            <ul class="socials link">
+                            <ul class="socials">
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Instagram">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Instagram">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Twitter">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Twitter">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Facebook">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Facebook">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка LinkedIn">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка LinkedIn">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-linkedin"></use>
                                         </svg>
@@ -300,35 +298,35 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="item flex-border">
+                    <li class="flex-border">
                         <img src="./images/imgk4.jpg" alt="МихаилЕрмаков" width="270">
                         <div class="command-name">
                             <h3 class="list-name">Михаил Ермаков</h3>
                             <p class="list-professional">UI Designer</p>
-                            <ul class="socials link">
+                            <ul class="socials">
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Instagram">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Instagram">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Twitter">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Twitter">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Facebook">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Facebook">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="socials-item">
-                                    <a class="socials-link link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка LinkedIn">
+                                    <a class="socials-link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка LinkedIn">
                                         <svg width="20" height="20">
                                             <use class="socials-icon" href="./images/icons.svg#icon-linkedin"></use>
                                         </svg>
@@ -405,12 +403,15 @@
             <a class="logo" href="./index.html">Web<span class="logo-footer">Studio</span></a>
             <address>
                 <ul class="list-address">
-                    <li class="item"><a class="footer-item-address" href="https://goo.gl/maps/hENirar2RaaybkNg7"
+                    <li class="footer-link">
+                        <a class="footer-item-address" href="https://goo.gl/maps/hENirar2RaaybkNg7"
                             target="_blank" rel="noopener noreferrer">г. Киев, пр-т
                             Леси Украинки, 26</a></li>
-                    <li class="item"><a class="footer-item-contacts"
+                    <li class="footer-link">
+                        <a class="footer-item-contacts"
                             href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="item"><a class="footer-item-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li class="footer-link">
+                        <a class="footer-item-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
             </div>
@@ -419,28 +420,28 @@
                 <p>
                 <ul class="socials-footer">
                     <li class="socials-item-footer">
-                    <a class="socials-link-footer link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Instagram">
+                    <a class="socials-link-footer" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Instagram">
                         <svg width="20" height="20">
                             <use class="socials-icon-footer" href="./images/icons.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="socials-item-footer">
-                    <a class="socials-link-footer link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Twitter">
+                    <a class="socials-link-footer" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Twitter">
                         <svg width="20" height="20">
                             <use class="socials-icon-footer" href="./images/icons.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="socials-item-footer">
-                    <a class="socials-link-footer link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Facebook">
+                    <a class="socials-link-footer" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка Facebook">
                         <svg width="20" height="20">
                             <use class="socials-icon-footer" href="./images/icons.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="socials-item">
-                    <a class="socials-link-footer link" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка LinkedIn">
+                    <a class="socials-link-footer" href="" target="_blank" rel="noopener noreferrer" aria-label="иконка LinkedIn">
                         <svg width="20" height="20">
                             <use class="socials-icon-footer" href="./images/icons.svg#icon-linkedin"></use>
                         </svg>
