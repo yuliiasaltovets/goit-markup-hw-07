@@ -1,0 +1,27 @@
+body {
+    font-family: var(--main-font),
+        sans-serif;
+    color: var(--main-clr-);
+    margin: 0;
+
+}
+
+html {
+    box-sizing: border-box;
+
+}
+header {
+    border-bottom: 1px solid #ECECEC;
+
+}
+img {
+    display: block;
+    
+}
+.not-visible {
+    visibility: hidden;
+}
+.portfolio {
+    padding-top: 100px;
+    padding-bottom: 94px;
+}

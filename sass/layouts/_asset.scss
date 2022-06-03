@@ -1,0 +1,55 @@
+/* достоинства */
+
+.asset {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.asset__list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.asset__item {
+    width: 270px;
+    padding-right: auto;
+    padding-left: auto;
+    margin-right: 30px;
+}
+
+.asset__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.asset__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    color: var(--main-clr-);
+}
+
+.asset__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

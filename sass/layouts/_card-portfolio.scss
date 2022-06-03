@@ -1,0 +1,109 @@
+/* список карточек портфолио */
+
+
+.card__flex-element {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 370px;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+
+    &:hover {
+        cursor: pointer;
+        display: block;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+
+    }
+}
+
+
+
+.card__work {
+    position: relative;
+    overflow: hidden;
+
+    &:focus.card__text {
+        transform: translateY(0);
+
+    }
+
+    &:hover .card__text {
+        transform: translateY(0);
+
+    }
+}
+
+.card__img {
+    overflow: hidden;
+    position: relative;
+}
+
+/* текст на карточках */
+.card__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 370px;
+    height: 294px;
+
+    background-color: rgba(33, 150, 243, 0.9);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+    padding-top: 63px;
+    padding-right: 24px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+
+    transform: translateY(100%);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus {
+        opacity: 1;
+
+    }
+
+    &:hover {
+        opacity: 1;
+
+    }
+}
+
+/* подпись карточек */
+.card-progect {
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+}
+
+.card-progect__title {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-clr-);
+}
+
+.card-progect__option {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}

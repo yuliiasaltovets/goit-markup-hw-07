@@ -1,0 +1,24 @@
+@mixin main-btn {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background: var(--blue-clr-element);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+
+    transition: transform color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+

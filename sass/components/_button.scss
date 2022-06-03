@@ -1,0 +1,154 @@
+// main button
+.main-btn {
+
+    // @extend %main-btn;
+    @include main-btn;
+
+    &:hover {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    background-color: #2196F3;
+    text-decoration: none;
+    }
+    
+    &:focus {
+    background-color: #2196F3;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    
+}
+}
+
+
+
+// button modal
+.modal-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+
+    margin-top: 8px;
+    margin-right: 8px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+    fill: #2196F3;
+    }
+    
+    &:focus {
+    fill: #2196F3;
+    }
+
+}
+
+
+// button form
+.modal-form__btn {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+
+    padding-left: 56px;
+    padding-right: 55px;
+
+
+    width: 200px;
+    height: 50px;
+    outline: 0;
+
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+
+    font-family: inherit;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+
+    &:hover {
+    background-color: #188CE8;
+    
+    }
+    
+    & {
+    background-color: #188CE8;
+    
+    }
+
+}
+
+
+// button portfolio
+
+.list-button {
+    list-style: none;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-button__portfolio {
+    display: inline-block;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 6px 22px;
+    border: none;
+    margin-left: 8px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    }
+    
+    &:hover {
+    background-color: #2196F3;
+    color: #ffffff;
+    
+    }
+}
+
+
+

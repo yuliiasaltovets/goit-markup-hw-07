@@ -1,0 +1,62 @@
+/* чем мы занимаемся */
+
+.work {
+    padding-bottom: 94px;
+}
+
+.work__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-clr-);
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.work__list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.work__item {
+    width: 370px;
+    display: inline-block;
+    position: relative;
+
+    & :not(:last-child) {
+            margin-right: 0px;
+        }
+}
+
+
+
+.work__text {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    font-family: 'Roboto';
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 27px;
+
+    color: #FFFFFF;
+
+}
